@@ -1,0 +1,18 @@
+{
+  "name": "layers-e2e-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.com:layers-digital/apps/layers-e2e-tests.git",
+  "author": "ramirezmz <robertopaoloramirezmunoz7@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "cypress": "^12.8.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-cypress": "^2.12.1",
+    "standard": "^17.0.0"
+  }
+}

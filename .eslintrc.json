@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["standard", "plugin:cypress/recommended"],
+  "plugins": ["cypress"],
+  "rules": {
+    "no-console": "off",
+    "cypress/no-unnecessary-waiting": "off",
+    "space-before-function-parent": "off"
+  }
+}
